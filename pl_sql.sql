@@ -1,5 +1,5 @@
 DECLARE
-    input_str   VARCHAR2(30) := 'abcdefg';  -- ✅ Replace with your test input
+    input_str   VARCHAR2(30) := 'abcdefg';  
     xml_output  VARCHAR2(4000) := '';
     char_seen   VARCHAR2(100) := '';
     curr_char   CHAR(1);
@@ -42,3 +42,4 @@ BEGIN
     DBMS_OUTPUT.PUT_LINE(xml_output);
 END;
 /
+
